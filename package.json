@@ -1,0 +1,33 @@
+{
+  "name": "commodiqui",
+  "version": "1.0.0",
+  "description": "Transparently add proxy support to the aws-sdk-js package",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvieSpencer/commodiqui.git"
+  },
+  "keywords": [
+    "ipsa",
+    "proxy",
+    "sdk"
+  ],
+  "author": "JohannaChristiansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvieSpencer/commodiqui.git/issues"
+  },
+  "homepage": "https://github.com/EvieSpencer/commodiqui.git",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "aws-sdk": ""
+  },
+  "devDependencies": {
+    "proxy-agent": "^2.0.0"
+  }
+}
